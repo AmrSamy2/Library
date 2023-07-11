@@ -5,6 +5,7 @@ body {
 }
 
 #new-book-btn {
+  padding: 1rem;
   width: fit-content;
   justify-self: center;
   align-self: center;
@@ -24,17 +25,6 @@ body {
   gap: 0.5rem;
 }
 
-/* .card {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  border-style: solid;
-  min-width: 200px;
-  max-width: fit-content;
-  justify-content: space-between;
-  align-items: center;
-
-} */
 .card{
   align-self: center;
   display: flex;
@@ -49,8 +39,11 @@ body {
 }
 
 #library {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
   flex-direction: row;
-  width: fit-content;
-  gap: 2rem
+  width: 100dvh;
+  gap: 2rem;
+  flex-wrap: wrap;
+  
 }
