@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+#new-book-btn {
+  width: fit-content;
+  justify-self: center;
+  align-self: center;
+
+}
+
+#form {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  max-width: fit-content;
+  height: 20rem;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  gap: 0.5rem;
+}
+
+/* .card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-style: solid;
+  min-width: 200px;
+  max-width: fit-content;
+  justify-content: space-between;
+  align-items: center;
+
+} */
+.card{
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+  max-width: fit-content;
+  height: 20rem;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  gap: 0.5rem;
+}
+
+#library {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  gap: 2rem
+}
